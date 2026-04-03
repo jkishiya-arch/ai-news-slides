@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>生成AI ニューススライド一覧</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #0f172a;
+      color: #e2e8f0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif;
+      min-height: 100vh;
+      padding: 40px 24px;
+    }
+    .container { max-width: 860px; margin: 0 auto; }
+    header {
+      border-bottom: 2px solid #6366f1;
+      padding-bottom: 24px;
+      margin-bottom: 40px;
+    }
+    header .label {
+      font-size: 0.7em;
+      letter-spacing: 0.15em;
+      color: #818cf8;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    header h1 {
+      font-size: 1.8em;
+      font-weight: 700;
+      color: #f8fafc;
+    }
+    header p {
+      font-size: 0.85em;
+      color: #64748b;
+      margin-top: 8px;
+    }
+    .slides-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .slide-card {
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 12px;
+      padding: 24px;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+      transition: border-color 0.2s, transform 0.15s;
+    }
+    .slide-card:hover {
+      border-color: #6366f1;
+      transform: translateY(-2px);
+    }
+    .slide-card .date {
+      font-size: 0.75em;
+      color: #818cf8;
+      letter-spacing: 0.08em;
+      margin-bottom: 10px;
+    }
+    .slide-card h2 {
+      font-size: 1em;
+      font-weight: 600;
+      color: #f1f5f9;
+      margin-bottom: 8px;
+    }
+    .slide-card p {
+      font-size: 0.75em;
+      color: #94a3b8;
+      line-height: 1.6;
+    }
+    .badge {
+      display: inline-block;
+      background: rgba(99,102,241,0.2);
+      color: #818cf8;
+      border-radius: 4px;
+      padding: 2px 10px;
+      font-size: 0.65em;
+      margin-top: 12px;
+      border: 1px solid rgba(99,102,241,0.3);
+    }
+    footer {
+      margin-top: 60px;
+      padding-top: 24px;
+      border-top: 1px solid #1e293b;
+      font-size: 0.7em;
+      color: #334155;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="label">Creative AI Briefing</div>
+      <h1>生成AI ニューススライド一覧</h1>
+      <p>制作会社向け 週次キュレーション — 最新順</p>
+    </header>
+
+    <div class="slides-grid">
+
+      <a class="slide-card" href="2026-04-03.html">
+        <div class="date">2026年 4月 3日（金）</div>
+        <h2>生成AI最新情報レポート</h2>
+        <p>OpenAI Sora終了・Kling 3.0台頭、Google Gemma 4リリース、Seedance 2.0 音声映像統合生成、Adobe Firefly強化 他</p>
+        <span class="badge">9スライド</span>
+      </a>
+
+    </div>
+
+    <footer>
+      Curated by AI News Agent &middot; Auto-updated weekly
+    </footer>
+  </div>
+</body>
+</html>
