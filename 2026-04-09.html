@@ -1,0 +1,295 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>生成AI最新動向 2026-04-09</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.0/reset.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.0/reveal.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.0/theme/black.min.css">
+  <style>
+    :root {
+      --accent: #6366f1;
+      --accent-light: #818cf8;
+      --accent-dim: rgba(99,102,241,0.15);
+    }
+    .reveal h1, .reveal h2, .reveal h3 { color: var(--accent-light); }
+    .reveal .slides section { text-align: left; }
+    .reveal .slides section.center-slide { text-align: center; }
+    .tag {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff;
+      font-size: 0.55em;
+      padding: 2px 10px;
+      border-radius: 20px;
+      vertical-align: middle;
+      margin-right: 6px;
+      font-weight: bold;
+      letter-spacing: 0.05em;
+    }
+    .tag.new { background: #10b981; }
+    .tag.hot { background: #ef4444; }
+    .tag.tool { background: #f59e0b; color: #111; }
+    .card {
+      background: var(--accent-dim);
+      border-left: 4px solid var(--accent);
+      border-radius: 6px;
+      padding: 14px 20px;
+      margin: 10px 0;
+      font-size: 0.82em;
+      line-height: 1.6;
+    }
+    .card h3 { margin: 0 0 6px 0; font-size: 1em; color: var(--accent-light); }
+    .action-list li {
+      margin-bottom: 14px;
+      padding-left: 8px;
+      border-left: 3px solid var(--accent);
+      font-size: 0.82em;
+      line-height: 1.5;
+    }
+    .reveal ul { list-style: none; padding: 0; }
+    .reveal ul li::before { content: "▶ "; color: var(--accent-light); font-size: 0.8em; }
+    .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .subtitle { color: #a5b4fc; font-size: 0.8em; }
+    .highlight-num {
+      font-size: 2.5em;
+      font-weight: 900;
+      color: var(--accent);
+      line-height: 1;
+      display: block;
+    }
+    .source-note { font-size: 0.45em; color: #6b7280; margin-top: 6px; }
+    .divider { border: none; border-top: 1px solid rgba(99,102,241,0.3); margin: 14px 0; }
+  </style>
+</head>
+<body>
+<div class="reveal">
+  <div class="slides">
+
+    <!-- 1. タイトルスライド -->
+    <section class="center-slide">
+      <div style="font-size:0.6em; color:#818cf8; letter-spacing:0.15em; margin-bottom:10px;">
+        2026年4月9日（木）
+      </div>
+      <h1 style="font-size:1.6em; line-height:1.3;">
+        生成AI<br>最新動向レポート
+      </h1>
+      <p class="subtitle" style="margin-top:20px;">
+        制作会社向け キュレーション情報<br>
+        画像・動画・ワークフロー最前線
+      </p>
+      <hr style="border-color:rgba(99,102,241,0.4); margin:30px auto; width:60%;">
+      <p style="font-size:0.55em; color:#6b7280;">
+        収集ソース: CNBC / Bloomberg / TechCrunch / Adobe Blog / Kling AI Blog ほか
+      </p>
+    </section>
+
+    <!-- 2. ハイライト #1 -->
+    <section>
+      <div style="font-size:0.55em; color:#818cf8; letter-spacing:0.1em;">TODAY'S HIGHLIGHT #1</div>
+      <h2>OpenAI「Sora」が突然終了<br><span style="font-size:0.75em;">動画AI 戦国時代が本格始動</span></h2>
+      <div class="card">
+        <h3><span class="tag hot">衝撃</span>Sora サービス終了 — 2026年3月25日</h3>
+        OpenAI は動画生成AIサービス「Sora」をリリースからわずか6か月でシャットダウン。後継となるモデルの開発を示唆するのみで詳細は非公開。
+      </div>
+      <div class="card">
+        <h3><span class="tag new">急成長</span>Kling AI 週間アクティブ 260万人へ</h3>
+        中国 Kuaishou 製の Kling AI がSora終了後の受け皿に。最大2分の動画を生成可能（Soraは最大25秒）。グローバルで週次ユーザー+4%増。
+      </div>
+      <div class="card">
+        <h3><span class="tag new">統合</span>Runway が Google Veo 3.1 を統合</h3>
+        RunwayML が自社モデルと並行して Google の Veo 3 / Veo 3.1 をプラットフォーム内に搭載。プロ品質の動画生成をワンストップで提供。
+      </div>
+      <p class="source-note">Source: Bloomberg (2026-04-01), eWeek, LaoZhang AI Blog</p>
+    </section>
+
+    <!-- 3. ハイライト #2 -->
+    <section>
+      <div style="font-size:0.55em; color:#818cf8; letter-spacing:0.1em;">TODAY'S HIGHLIGHT #2</div>
+      <h2>Meta「Muse Spark」発表<br><span style="font-size:0.75em;">AI投資が過去最高規模に</span></h2>
+      <div class="card">
+        <h3><span class="tag hot">速報</span>Muse Spark — 小型で高性能な新LLM</h3>
+        Meta Superintelligence Labs が大規模LLM「Muse Spark」を発表。旧来のLlama 4 中型モデルと同等性能を、1桁以下の計算コストで実現。発表翌日に Meta 株価が9%急騰。
+      </div>
+      <div class="card">
+        <h3><span class="tag new">市場</span>Q1 2026 スタートアップ調達額 1,780億ドル</h3>
+        2026年第1四半期、AIスタートアップへの投資は24件で計1,780億ドル——2025年通年の2倍超。OpenAI は史上最大の民間調達 1,220億ドルを完了。
+      </div>
+      <div class="card">
+        <h3><span class="tag tool">市場規模</span>生成AI ソフト市場 最大1,400億ドル規模へ</h3>
+        モデル・API・直接アプリを含むコア市場は550〜750億ドル。クラウドインフラ・エンタープライズ込みで1,000〜1,400億ドル。CAGR 28%以上が継続中。
+      </div>
+      <p class="source-note">Source: CNBC (2026-04-08), Crescendo AI, Kingy AI</p>
+    </section>
+
+    <!-- 4. ハイライト #3 -->
+    <section>
+      <div style="font-size:0.55em; color:#818cf8; letter-spacing:0.1em;">TODAY'S HIGHLIGHT #3</div>
+      <h2>画像生成AIが<br>プロ実用レベルに到達</h2>
+      <div class="card">
+        <h3><span class="tag new">新機能</span>GPT Image 1.5 — DALL-E 3の4倍速</h3>
+        OpenAIが DALL-E 3 の後継「GPT Image 1.5」をリリース。生成速度4倍、フォトリアリズムが大幅向上。テキスト埋め込み精度も改善。
+      </div>
+      <div class="card">
+        <h3><span class="tag new">新機能</span>WAN 2.7（Alibaba）— 思考型画像生成</h3>
+        Alibaba の WAN 2.7 がリリース。生成前に構図・空間関係を「思考」するモードを搭載。複雑なプロンプトへの対応精度が大幅に向上。
+      </div>
+      <div class="card">
+        <h3><span class="tag tool">Adobe</span>Firefly カスタムモデル + iOS アプリ</h3>
+        Adobe Firefly が自社ブランド画像でトレーニングした「カスタムモデル」を提供開始。キャラクター・イラスト・写真スタイルに対応。iOS アプリも公開。
+      </div>
+      <p class="source-note">Source: Adobe Blog (2026-03-19), Till Freitag, WaveSpeed AI Blog</p>
+    </section>
+
+    <!-- 5. カテゴリ別：画像生成AI -->
+    <section>
+      <h2><span class="tag tool">画像生成AI</span><br>2026年4月 勢力マップ</h2>
+      <div class="grid2">
+        <div class="card">
+          <h3>クラウド型 TOP3</h3>
+          <ul>
+            <li>GPT Image 1.5（速度・品質）</li>
+            <li>Gemini 3.1 Flash Image（4K・低コスト）</li>
+            <li>FLUX 1.1 Pro（高品質・4.5秒）</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>オープンソース</h3>
+          <ul>
+            <li>Stable Diffusion 3.5（最高柔軟性）</li>
+            <li>WAN 2.7（推論モード搭載）</li>
+            <li>Midjourney v7（動画機能追加）</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card" style="margin-top:10px;">
+        <h3>トレンド：マルチモデル戦略が主流に</h3>
+        高品質モデル間の差が縮まり、用途別に使い分ける「マルチモデル戦略」が2026年の標準に。Photorealism は GPT Image 1.5、アート系は Midjourney v7 が依然優位。
+      </div>
+      <p class="source-note">Source: Till Freitag, gradually.ai, Adobe Blog</p>
+    </section>
+
+    <!-- 6. カテゴリ別：動画生成AI -->
+    <section>
+      <h2><span class="tag hot">動画生成AI</span><br>Sora後の新秩序</h2>
+      <div class="card">
+        <h3>主要プレイヤー比較（2026年4月時点）</h3>
+        <table style="width:100%; font-size:0.75em; border-collapse:collapse;">
+          <tr style="color:#818cf8; border-bottom:1px solid rgba(99,102,241,0.3);">
+            <th style="padding:4px 8px; text-align:left;">ツール</th>
+            <th style="padding:4px 8px; text-align:left;">特徴</th>
+            <th style="padding:4px 8px; text-align:left;">最大尺</th>
+          </tr>
+          <tr><td style="padding:4px 8px;">Kling 2.6</td><td style="padding:4px 8px;">コスト効率・長尺対応</td><td style="padding:4px 8px;">2分</td></tr>
+          <tr><td style="padding:4px 8px;">Runway Gen-4.5</td><td style="padding:4px 8px;">Veo 3.1 統合・プロ向け</td><td style="padding:4px 8px;">—</td></tr>
+          <tr><td style="padding:4px 8px;">Veo 3.1</td><td style="padding:4px 8px;">4K・ネイティブ音声生成</td><td style="padding:4px 8px;">—</td></tr>
+          <tr><td style="padding:4px 8px;">Seedance 2.0</td><td style="padding:4px 8px;">音声・口パク・多言語対応</td><td style="padding:4px 8px;">—</td></tr>
+        </table>
+      </div>
+      <div class="card">
+        <h3><span class="tag new">注目</span>ByteDance Seedance 2.0</h3>
+        音声・映像の同時生成（ポストプロセスなし）、1プロンプトでマルチショット構成、8言語以上の音素レベルの口パク同期を実現。
+      </div>
+      <p class="source-note">Source: Bloomberg (2026-04-01), klingapi.com, lumichats.com</p>
+    </section>
+
+    <!-- 7. カテゴリ別：制作ツール -->
+    <section>
+      <h2><span class="tag tool">制作ツール</span><br>ワークフロー自動化の最前線</h2>
+      <div class="grid2">
+        <div class="card">
+          <h3>Adobe Firefly</h3>
+          <ul>
+            <li>カスタムモデル（ブランドカラー対応）</li>
+            <li>Generative Match（スタイル参照）</li>
+            <li>Illustrator に Design Intelligence 統合</li>
+            <li>iOS アプリ公開済み</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Midjourney v7</h3>
+          <ul>
+            <li>動画生成機能を追加</li>
+            <li>品質の大幅向上</li>
+            <li>Discord 中心の操作体験は継続</li>
+            <li>Basic $10/月〜で利用可能</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card" style="margin-top:10px;">
+        <h3>エージェントAI が制作ワークフローへ</h3>
+        Adobe Express に会話型AI統合（プロンプトからテンプレート自動生成・自然言語で微調整）。AIが「ツール」から「同僚」へと進化し、ブリーフからアウトプットまでの工程を自律実行する時代が到来。
+      </div>
+      <p class="source-note">Source: Adobe Blog, HP Tech&Device TV, note.com/jishunotebook</p>
+    </section>
+
+    <!-- 8. 制作会社アクションポイント -->
+    <section>
+      <h2>制作会社 アクションポイント</h2>
+      <ul class="action-list">
+        <li>
+          <strong>動画ツールのリプレイスを今すぐ検討</strong><br>
+          Sora 依存だった場合は Kling 2.6 または Runway Gen-4.5 への移行を。長尺演出ニーズには Kling が最有力候補。
+        </li>
+        <li>
+          <strong>Adobe Firefly カスタムモデルを導入評価</strong><br>
+          クライアントブランドの画像でモデルをトレーニングし、一貫性のあるクリエイティブ量産体制を構築する。
+        </li>
+        <li>
+          <strong>画像生成はマルチモデル戦略で</strong><br>
+          フォトリアル系は GPT Image 1.5、アーティスティック系は Midjourney v7 と使い分け。WAN 2.7 は複雑レイアウト案件に活用。
+        </li>
+        <li>
+          <strong>AIエージェント活用で制作リードタイムを短縮</strong><br>
+          Adobe Express の会話型AI や各種ワークフローツール（Runway, Kuse）を試験導入し、ブリーフ〜初稿の工数削減を測定する。
+        </li>
+      </ul>
+      <p class="source-note">Source: thegutenberg.com, rgd.ca, marketecs.com</p>
+    </section>
+
+    <!-- 9. まとめ -->
+    <section class="center-slide">
+      <h2>まとめ</h2>
+      <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:14px; margin-top:20px; text-align:center;">
+        <div class="card" style="text-align:center;">
+          <span class="highlight-num">🎬</span>
+          <strong>動画AI再編</strong>
+          <p style="font-size:0.7em; margin:8px 0 0 0;">Sora終了で Kling・Runway・Seedance が三つ巴の争いへ</p>
+        </div>
+        <div class="card" style="text-align:center;">
+          <span class="highlight-num">🖼️</span>
+          <strong>画像AI成熟期</strong>
+          <p style="font-size:0.7em; margin:8px 0 0 0;">GPT Image 1.5・WAN 2.7でプロ実用レベルが標準に</p>
+        </div>
+        <div class="card" style="text-align:center;">
+          <span class="highlight-num">⚡</span>
+          <strong>エージェントへ進化</strong>
+          <p style="font-size:0.7em; margin:8px 0 0 0;">AIが自律でワークフローを完遂する時代が本格到来</p>
+        </div>
+      </div>
+      <hr style="border-color:rgba(99,102,241,0.4); margin:24px auto; width:60%;">
+      <p style="font-size:0.6em; color:#818cf8;">
+        次回レポート: 2026年4月16日（予定）<br>
+        <span style="color:#6b7280;">生成AI最新動向レポート — 制作会社向けキュレーション</span>
+      </p>
+    </section>
+
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.0/reveal.min.js"></script>
+<script>
+  Reveal.initialize({
+    hash: true,
+    transition: 'slide',
+    transitionSpeed: 'fast',
+    backgroundTransition: 'fade',
+    controls: true,
+    progress: true,
+    slideNumber: true,
+    overview: true,
+    touch: true,
+  });
+</script>
+</body>
+</html>
