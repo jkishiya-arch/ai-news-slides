@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>生成AI最新情報 2026-04-12</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/black.css">
+  <style>
+    :root {
+      --accent: #6366f1;
+      --accent-light: #818cf8;
+      --accent-dim: rgba(99,102,241,0.15);
+    }
+    .reveal .slides section {
+      text-align: left;
+    }
+    .reveal h1, .reveal h2, .reveal h3 {
+      text-transform: none;
+      letter-spacing: -0.02em;
+    }
+    .reveal h1 { font-size: 2rem; color: #fff; }
+    .reveal h2 { font-size: 1.6rem; color: var(--accent-light); border-left: 4px solid var(--accent); padding-left: 0.5em; margin-bottom: 0.6em; }
+    .reveal h3 { font-size: 1.15rem; color: var(--accent-light); }
+    .reveal p, .reveal li { font-size: 0.82rem; line-height: 1.7; color: #e2e8f0; }
+    .reveal ul { list-style: none; padding-left: 0; }
+    .reveal ul li::before { content: "▸ "; color: var(--accent); }
+    .reveal ul li { margin-bottom: 0.4em; }
+
+    /* Title slide */
+    .title-slide { text-align: center !important; }
+    .title-slide h1 { font-size: 2.4rem; color: var(--accent-light); }
+    .title-slide .date-badge {
+      display: inline-block;
+      background: var(--accent-dim);
+      border: 1px solid var(--accent);
+      border-radius: 6px;
+      padding: 4px 16px;
+      font-size: 0.85rem;
+      color: var(--accent-light);
+      margin-bottom: 1rem;
+    }
+    .title-slide .subtitle { font-size: 1rem; color: #94a3b8; margin-top: 0.5rem; }
+
+    /* Highlight card */
+    .highlight-num {
+      font-size: 3.5rem;
+      font-weight: 900;
+      color: var(--accent);
+      line-height: 1;
+      margin-bottom: 0.2em;
+    }
+    .highlight-title { font-size: 1.4rem; font-weight: 700; color: #fff; margin-bottom: 0.5em; }
+    .highlight-body { font-size: 0.82rem; color: #cbd5e1; line-height: 1.7; }
+    .tag {
+      display: inline-block;
+      background: var(--accent-dim);
+      border: 1px solid var(--accent);
+      border-radius: 4px;
+      padding: 2px 10px;
+      font-size: 0.7rem;
+      color: var(--accent-light);
+      margin-right: 6px;
+      margin-bottom: 8px;
+    }
+
+    /* Two-column grid */
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.2em;
+      margin-top: 0.5em;
+    }
+    .card {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(99,102,241,0.3);
+      border-radius: 8px;
+      padding: 0.9em 1em;
+    }
+    .card h3 { margin: 0 0 0.4em 0; font-size: 1rem; color: var(--accent-light); }
+    .card p, .card li { font-size: 0.75rem; }
+
+    /* Action slide */
+    .action-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.8em;
+      margin-bottom: 0.9em;
+    }
+    .action-num {
+      min-width: 2em;
+      height: 2em;
+      background: var(--accent);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 0.85rem;
+      color: #fff;
+    }
+    .action-text { font-size: 0.8rem; color: #e2e8f0; line-height: 1.6; }
+    .action-text strong { color: #fff; }
+
+    /* Summary */
+    .summary-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 0.8em;
+      margin-top: 0.6em;
+    }
+    .summary-box {
+      background: var(--accent-dim);
+      border: 1px solid var(--accent);
+      border-radius: 8px;
+      padding: 0.8em;
+      text-align: center;
+    }
+    .summary-box .emoji { font-size: 1.8rem; display: block; margin-bottom: 0.3em; }
+    .summary-box p { font-size: 0.72rem; color: #cbd5e1; margin: 0; }
+    .footer-note { font-size: 0.65rem; color: #64748b; margin-top: 1.2em; text-align: center; }
+  </style>
+</head>
+<body>
+<div class="reveal">
+  <div class="slides">
+
+    <!-- ① タイトルスライド -->
+    <section class="title-slide">
+      <div class="date-badge">2026.04.12 JST</div>
+      <h1>生成AI 最新情報レポート</h1>
+      <p class="subtitle">制作会社のためのウィークリーキュレーション<br>
+      画像生成 / 動画生成 / クリエイティブツール</p>
+      <div style="margin-top:1.5em; color:#6366f1; font-size:0.75rem;">
+        AI News Agent — powered by Claude
+      </div>
+    </section>
+
+    <!-- ② ハイライト #1 -->
+    <section>
+      <h2>今日のハイライト #1</h2>
+      <div class="highlight-num">01</div>
+      <div class="highlight-title">OpenAI「Sora」が終了 — 動画AI戦国時代へ突入</div>
+      <span class="tag">動画生成</span><span class="tag">OpenAI</span><span class="tag">最重要</span>
+      <div class="highlight-body">
+        <p>OpenAIは2026年3月25日、リリースわずか6ヶ月でSoraを正式終了。
+        空いたシェアを巡り <strong>Kling 3.0 / Veo 3.1 / Runway</strong> が激しく競合している。</p>
+        <ul>
+          <li>Kling 3.0（2026年2月）— マルチショットシーケンス対応、最大2分の動画生成</li>
+          <li>Veo 3.1（Google）— 業界初・環境音・台詞・効果音を動画と同時生成</li>
+          <li>Runway — Veo 3.1を自社プラットフォームに統合、選択肢が一気に拡大</li>
+        </ul>
+        <p style="color:#f59e0b; font-size:0.75rem;">→ Soraユーザーは今すぐ代替ツールへの移行計画が必要</p>
+      </div>
+    </section>
+
+    <!-- ③ ハイライト #2 -->
+    <section>
+      <h2>今日のハイライト #2</h2>
+      <div class="highlight-num">02</div>
+      <div class="highlight-title">Meta「Muse Spark」登場 — 少ないコストで高品質AI</div>
+      <span class="tag">大規模言語モデル</span><span class="tag">Meta</span><span class="tag">効率化</span>
+      <div class="highlight-body">
+        <p>MetaがAlexandr Wang率いるMeta Superintelligence Labsの下で新モデル <strong>Muse Spark</strong> を発表。
+        Llama 4 中規模モデルと同等の性能を <strong>1/10以下のコンピュート</strong> で実現する新訓練手法を採用。</p>
+        <ul>
+          <li>小型モデルでも高品質な出力が可能に — APIコスト大幅削減が期待</li>
+          <li>Q1 2026に世界中のVCがAI企業へ <strong>2420億ドル</strong>（全VCの80%）を投資</li>
+          <li>Google Gemma 4 もオープンモデルとして推論・エージェント向けに公開</li>
+        </ul>
+        <p style="color:#34d399; font-size:0.75rem;">→ 小規模プロダクションでもAI APIコスト最適化のチャンス拡大</p>
+      </div>
+    </section>
+
+    <!-- ④ ハイライト #3 -->
+    <section>
+      <h2>今日のハイライト #3</h2>
+      <div class="highlight-num">03</div>
+      <div class="highlight-title">生成AI採用率88%へ — 「試す時代」から「組み込む時代」へ</div>
+      <span class="tag">業界動向</span><span class="tag">市場データ</span><span class="tag">制作会社必読</span>
+      <div class="highlight-body">
+        <p>2026年、組織の <strong>88%</strong> がコア業務に生成AIを導入済み（2025年比+17pt）。
+        市場規模は <strong>1610億ドル</strong> に到達し、2034年には1.2兆ドルへ成長予測。</p>
+        <ul>
+          <li>AIは「ツール」から「同僚（AIエージェント）」へ進化が加速</li>
+          <li>Netflixがアルゼンチン制作シリーズで生成AIを映像制作に正式活用と公表</li>
+          <li>マルチモデル戦略（用途別にモデルを使い分け）がROI最大化の鍵</li>
+        </ul>
+        <p style="color:#f472b6; font-size:0.75rem;">→ 競合他社との差は「使うか否か」ではなく「どう組み込むか」の段階へ</p>
+      </div>
+    </section>
+
+    <!-- ⑤ 画像生成AI -->
+    <section>
+      <h2>カテゴリ別 — 画像生成AI</h2>
+      <div class="two-col">
+        <div class="card">
+          <h3>FLUX.1.1 Pro</h3>
+          <ul>
+            <li>2026年最高峰の技術品質</li>
+            <li>生成時間 約4.5秒</li>
+            <li>フォトリアリズム・商用利用に最適</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>GPT Image 1.5</h3>
+          <ul>
+            <li>ChatGPT新標準画像モデル</li>
+            <li>DALL·E比 4倍の高速生成</li>
+            <li>テキスト描画精度が大幅向上</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Midjourney v7</h3>
+          <ul>
+            <li>完全アーキテクチャ刷新</li>
+            <li>Draft Mode で10倍高速化</li>
+            <li>動画生成機能も追加</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Adobe Firefly 5</h3>
+          <ul>
+            <li>商用利用安全性が業界最高水準</li>
+            <li>iOS版アプリ公開済み</li>
+            <li>Custom Models（β）でブランド特化学習可</li>
+          </ul>
+        </div>
+      </div>
+      <p style="font-size:0.7rem; color:#64748b; margin-top:0.8em;">
+        ※ 2026年はトップ9モデルのELO差が117pt以内に縮小。用途別の使い分けが重要。
+      </p>
+    </section>
+
+    <!-- ⑥ 動画生成AI -->
+    <section>
+      <h2>カテゴリ別 — 動画生成AI</h2>
+      <div class="two-col">
+        <div class="card">
+          <h3>Kling 3.0 <span style="color:#f59e0b; font-size:0.7rem;">NEW</span></h3>
+          <ul>
+            <li>マルチショット（3〜15秒）対応</li>
+            <li>異なるカメラアングルで被写体一貫性</li>
+            <li>最大2分の長尺動画生成</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Veo 3.1 (Google)</h3>
+          <ul>
+            <li>業界唯一の音声同時生成</li>
+            <li>環境音・台詞・効果音を自動生成</li>
+            <li>技術面では現時点で最先端</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Runway Gen-4</h3>
+          <ul>
+            <li>Veo 3.1を自社プラットフォームに統合</li>
+            <li>独自モデル＋Google最新モデルを選択可</li>
+            <li>クリエイティブ制作チームの定番</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Sora 2 ※参考</h3>
+          <ul>
+            <li>2026年2月リリース後、3月25日終了</li>
+            <li>映画的クオリティは他の追随を許さず</li>
+            <li>代替としてKling 3.0推奨</li>
+          </ul>
+        </div>
+      </div>
+      <p style="font-size:0.7rem; color:#f59e0b; margin-top:0.8em;">
+        ⚡ Q4 2026には720p動画の生成時間が5秒以下になる見通し — リアルタイム応用が現実化
+      </p>
+    </section>
+
+    <!-- ⑦ 制作ツール・ワークフロー -->
+    <section>
+      <h2>カテゴリ別 — 制作ツール & ワークフロー</h2>
+      <ul>
+        <li><strong>Adobe Express + Firefly</strong> — 会話型AIアシスタント統合、自然言語で細部調整。CC連携でデザイン工程を大幅短縮</li>
+        <li><strong>Canva AI</strong> — 高ボリューム・マーケティングクリエイティブ制作に最速。チーム全体のデザイン民主化</li>
+        <li><strong>Gemini 3.1 Flash</strong> — Proレベルの出力をFlash速度で実現。長尺コンテンツ分析・要約に最適</li>
+        <li><strong>AIエージェント化の波</strong> — ブリーフ作成→素材生成→確認→修正のループをAIが自律実行するワークフローが実用段階へ</li>
+        <li><strong>マルチモデル戦略</strong> — テキスト生成にClaude、画像にFLUX、動画にKling、デザインにFireflyと用途別に最適モデルを選択</li>
+      </ul>
+      <div style="background: rgba(99,102,241,0.1); border-left: 3px solid #6366f1; padding: 0.6em 0.8em; margin-top: 0.8em; border-radius: 0 6px 6px 0;">
+        <p style="font-size: 0.75rem; color: #a5b4fc; margin: 0;">
+          AI導入で広告制作のターンアラウンドタイムが平均<strong> 60〜70% </strong>短縮される事例が報告されており、<br>
+          人間チームは戦略・クリエイティブ方向性・最終承認に特化するモデルが定着
+        </p>
+      </div>
+    </section>
+
+    <!-- ⑧ 制作会社 アクションポイント -->
+    <section>
+      <h2>制作会社 アクションポイント</h2>
+      <div class="action-item">
+        <div class="action-num">1</div>
+        <div class="action-text">
+          <strong>Sora代替ツールへの即時移行計画</strong><br>
+          Kling 3.0（長尺・マルチショット）またはRunway+Veo 3.1（音声付き）を評価・導入。Sora終了で競合も一斉移行中、先手を打つ。
+        </div>
+      </div>
+      <div class="action-item">
+        <div class="action-num">2</div>
+        <div class="action-text">
+          <strong>Adobe Creative Cloud + Firefly 5 のフル活用</strong><br>
+          Custom Modelsでブランドスタイルを学習させ、修正コストを削減。iOS版も活用してモバイル対応フローを構築。
+        </div>
+      </div>
+      <div class="action-item">
+        <div class="action-num">3</div>
+        <div class="action-text">
+          <strong>マルチモデル戦略の策定</strong><br>
+          用途別に最適モデルを選定し、API経由で統合。Meta Muse Sparkなど軽量高品質モデルでAPIコストを最適化。
+        </div>
+      </div>
+      <div class="action-item">
+        <div class="action-num">4</div>
+        <div class="action-text">
+          <strong>AIエージェント導入の小規模実験を開始</strong><br>
+          定型的な素材バリエーション生成・SNS投稿文作成などから始め、段階的にワークフローを自動化。
+        </div>
+      </div>
+    </section>
+
+    <!-- ⑨ まとめ -->
+    <section>
+      <h2>まとめ</h2>
+      <div class="summary-grid">
+        <div class="summary-box">
+          <span class="emoji">🎬</span>
+          <p>Sora終了で動画AI再編<br>Kling 3.0 / Veo 3.1 / Runway が三強</p>
+        </div>
+        <div class="summary-box">
+          <span class="emoji">🖼️</span>
+          <p>画像AIは高品質均衡時代<br>用途別モデル選択が差別化に</p>
+        </div>
+        <div class="summary-box">
+          <span class="emoji">⚡</span>
+          <p>Meta Muse Spark登場<br>高品質×低コストの新基準</p>
+        </div>
+        <div class="summary-box">
+          <span class="emoji">🏢</span>
+          <p>組織の88%が生成AI導入済み<br>競争軸は「活用深度」へ</p>
+        </div>
+        <div class="summary-box">
+          <span class="emoji">🔧</span>
+          <p>Adobe Express AI統合<br>制作ワークフロー60〜70%短縮</p>
+        </div>
+        <div class="summary-box">
+          <span class="emoji">🤖</span>
+          <p>AIエージェント本格化<br>「ツール」から「同僚」へ進化</p>
+        </div>
+      </div>
+      <div class="footer-note">
+        Generated by AI News Agent on 2026-04-12 JST |
+        Sources: CNBC / Bloomberg / bostoninstituteofanalytics.org / klingapi.com / aimlapi.com / till-freitag.com / rgd.ca / thegutenberg.com
+      </div>
+    </section>
+
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+<script>
+  Reveal.initialize({
+    hash: true,
+    transition: 'slide',
+    transitionSpeed: 'fast',
+    controls: true,
+    progress: true,
+    slideNumber: true,
+    plugins: []
+  });
+</script>
+</body>
+</html>
