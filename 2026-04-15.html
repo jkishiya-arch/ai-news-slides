@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>生成AI最新情報 2026-04-15</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/black.css">
+  <style>
+    :root {
+      --accent: #6366f1;
+      --accent-light: #818cf8;
+      --accent-dim: rgba(99,102,241,0.15);
+    }
+    .reveal h1, .reveal h2 { color: var(--accent-light); }
+    .reveal h3 { color: #e2e8f0; }
+    .reveal .slides section { text-align: left; }
+    .reveal .slides section.center-slide { text-align: center; }
+
+    /* タイトルスライド */
+    .title-badge {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff;
+      padding: 4px 14px;
+      border-radius: 999px;
+      font-size: 0.6em;
+      letter-spacing: 0.08em;
+      margin-bottom: 0.6em;
+      vertical-align: middle;
+    }
+    .title-date {
+      font-size: 0.85em;
+      color: #94a3b8;
+      margin-top: 0.3em;
+    }
+
+    /* カード */
+    .card {
+      background: var(--accent-dim);
+      border: 1px solid var(--accent);
+      border-radius: 10px;
+      padding: 0.55em 0.9em;
+      margin: 0.45em 0;
+      font-size: 0.78em;
+      line-height: 1.55;
+    }
+    .card .label {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff;
+      border-radius: 4px;
+      padding: 1px 8px;
+      font-size: 0.75em;
+      font-weight: 700;
+      margin-bottom: 0.3em;
+    }
+    .card h4 {
+      margin: 0 0 0.2em;
+      font-size: 1em;
+      color: var(--accent-light);
+    }
+
+    /* ハイライト番号 */
+    .hl-num {
+      font-size: 3em;
+      font-weight: 900;
+      color: var(--accent);
+      line-height: 1;
+      margin-bottom: 0.1em;
+    }
+    .hl-title {
+      font-size: 1.25em;
+      font-weight: 700;
+      color: #f1f5f9;
+      margin-bottom: 0.5em;
+    }
+    .hl-desc {
+      font-size: 0.78em;
+      color: #cbd5e1;
+      line-height: 1.7;
+    }
+
+    /* テーブル */
+    .compare-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.72em;
+      margin-top: 0.5em;
+    }
+    .compare-table th {
+      background: var(--accent);
+      color: #fff;
+      padding: 0.35em 0.7em;
+      text-align: left;
+    }
+    .compare-table td {
+      padding: 0.3em 0.7em;
+      border-bottom: 1px solid rgba(99,102,241,0.3);
+      color: #e2e8f0;
+    }
+    .compare-table tr:nth-child(even) td { background: rgba(99,102,241,0.07); }
+
+    /* アクションポイント */
+    .action-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.6em;
+      margin: 0.45em 0;
+      font-size: 0.78em;
+      color: #e2e8f0;
+    }
+    .action-icon {
+      min-width: 1.6em;
+      height: 1.6em;
+      background: var(--accent);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.9em;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    /* まとめ */
+    .summary-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.6em;
+      margin-top: 0.5em;
+    }
+    .summary-item {
+      background: var(--accent-dim);
+      border-left: 3px solid var(--accent);
+      padding: 0.5em 0.7em;
+      border-radius: 0 6px 6px 0;
+      font-size: 0.72em;
+      color: #e2e8f0;
+      line-height: 1.5;
+    }
+    .summary-item strong { color: var(--accent-light); display: block; margin-bottom: 0.2em; }
+
+    /* tag chips */
+    .tag {
+      display: inline-block;
+      background: rgba(99,102,241,0.25);
+      color: var(--accent-light);
+      border-radius: 4px;
+      padding: 1px 7px;
+      font-size: 0.65em;
+      margin: 2px 2px 2px 0;
+    }
+  </style>
+</head>
+<body>
+<div class="reveal">
+  <div class="slides">
+
+    <!-- ================================ -->
+    <!-- 1. タイトルスライド -->
+    <!-- ================================ -->
+    <section class="center-slide">
+      <div style="margin-bottom:0.3em;">
+        <span class="title-badge">制作会社向け 生成AIウィークリー</span>
+      </div>
+      <h1 style="font-size:1.8em; line-height:1.2; text-align:center;">
+        生成AI<br>最新情報レポート
+      </h1>
+      <div class="title-date" style="text-align:center;">
+        2026年4月15日（水）
+      </div>
+      <hr style="border-color: var(--accent); margin: 1em auto; width:60%;">
+      <p style="text-align:center; font-size:0.7em; color:#94a3b8;">
+        画像生成 / 動画生成 / 制作ツール / エージェント自動化<br>
+        クリエイティブ産業を揺るがす今週のビッグニュース
+      </p>
+    </section>
+
+    <!-- ================================ -->
+    <!-- 2. ハイライト TOP3 #1 -->
+    <!-- ================================ -->
+    <section>
+      <h2 style="font-size:1em; color:#94a3b8; letter-spacing:0.1em;">TODAY'S HIGHLIGHT</h2>
+      <div class="hl-num">01</div>
+      <div class="hl-title">OpenAI、Soraを終了<br>動画生成AI「群雄割拠」時代へ</div>
+      <div class="hl-desc">
+        OpenAIが動画生成AIサービス「Sora」をシャットダウン。<br>
+        空白を埋めるべく <strong style="color:var(--accent-light);">Kling AI / RunwayML / Vidu</strong> が急伸。<br><br>
+        代替ツールの筆頭は中国発の <strong style="color:var(--accent-light);">Kling 3.0</strong>（2026年2月リリース）。<br>
+        ネイティブ4K・最長2分・マルチショット絵コンテ生成を実現。<br><br>
+        Googleの <strong style="color:var(--accent-light);">Veo 3.1</strong> もネイティブ音声生成対応で猛追中。
+      </div>
+      <div style="margin-top:0.8em; display:flex; gap:0.4em; flex-wrap:wrap;">
+        <span class="tag">動画生成AI</span>
+        <span class="tag">Kling 3.0</span>
+        <span class="tag">Veo 3.1</span>
+        <span class="tag">Sora終了</span>
+      </div>
+    </section>
+
+    <!-- ================================ -->
+    <!-- 3. ハイライト TOP3 #2 -->
+    <!-- ================================ -->
+    <section>
+      <h2 style="font-size:1em; color:#94a3b8; letter-spacing:0.1em;">TODAY'S HIGHLIGHT</h2>
+      <div class="hl-num">02</div>
+      <div class="hl-title">OpenAI、GPT Image 1.5 公開<br>画像生成の新標準が塗り替わる</div>
+      <div class="hl-desc">
+        DALL-E 3 が事実上廃止され、<strong style="color:var(--accent-light);">GPT Image 1.5</strong> が全ChatGPTユーザーへ展開。<br><br>
+        • 生成速度 <strong style="color:#f59e0b;">4倍高速化</strong><br>
+        • フォトリアリズム・細部の一貫性が大幅向上<br>
+        • より精密な部分編集（インペインティング）に対応<br><br>
+        競合では <strong style="color:var(--accent-light);">FLUX.1.1 Pro</strong> が技術品質ランキング1位をキープ（生成4.5秒）。
+      </div>
+      <div style="margin-top:0.8em; display:flex; gap:0.4em; flex-wrap:wrap;">
+        <span class="tag">画像生成AI</span>
+        <span class="tag">GPT Image 1.5</span>
+        <span class="tag">FLUX.1.1 Pro</span>
+        <span class="tag">OpenAI</span>
+      </div>
+    </section>
+
+    <!-- ================================ -->
+    <!-- 4. ハイライト TOP3 #3 -->
+    <!-- ================================ -->
+    <section>
+      <h2 style="font-size:1em; color:#94a3b8; letter-spacing:0.1em;">TODAY'S HIGHLIGHT</h2>
+      <div class="hl-num">03</div>
+      <div class="hl-title">Adobe Firefly が<br>マルチモデルプラットフォームへ進化</div>
+      <div class="hl-desc">
+        Adobeが Firefly に <strong style="color:var(--accent-light);">Runway Gen-4.5 / FLUX.2 Pro / Gemini 3</strong> を統合。<br>
+        単一インターフェースで複数AIモデルを選択できる環境を実現。<br><br>
+        新機能 <strong style="color:var(--accent-light);">AI Markup</strong> により、画像の特定エリアを指定して<br>テキストプロンプトで部分編集が可能に。<br><br>
+        Creative Cloud向け <strong style="color:var(--accent-light);">Custom Models（ベータ）</strong> も開始。<br>
+        ブランドスタイルを学習させた専用モデルを構築できる。
+      </div>
+      <div style="margin-top:0.8em; display:flex; gap:0.4em; flex-wrap:wrap;">
+        <span class="tag">Adobe Firefly</span>
+        <span class="tag">Runway連携</span>
+        <span class="tag">Custom Models</span>
+        <span class="tag">制作ツール</span>
+      </div>
+    </section>
+
+    <!-- ================================ -->
+    <!-- 5. カテゴリ別: 画像生成AI -->
+    <!-- ================================ -->
+    <section>
+      <h2 style="font-size:1.1em;">画像生成AI — 最新動向</h2>
+
+      <div class="card">
+        <div class="label">GPT Image 1.5 / OpenAI</div>
+        <h4>DALL-E 3の後継、全ユーザーへ展開</h4>
+        4倍速・高精度フォトリアリズム。ChatGPT経由で即利用可能。部分編集精度が大幅向上。
+      </div>
+
+      <div class="card">
+        <div class="label">FLUX.1.1 Pro / Black Forest Labs</div>
+        <h4>技術品質ランキング首位をキープ</h4>
+        LM Arenaで最高ELOスコア。生成4.5秒・商用利用対応。セルフホスト版「Flux 2 Dev」も登場。
+      </div>
+
+      <div class="card">
+        <div class="label">Stable Diffusion 3.5 / Stability AI</div>
+        <h4>SD XL・Stable Cascadeの後継として刷新</h4>
+        オープンウェイトで自由度が高く、カスタムパイプライン構築に最適。
+      </div>
+
+      <div class="card">
+        <div class="label">Midjourney / 現状</div>
+        <h4>動画機能は未リリース・著作権訴訟が継続</h4>
+        Disney・NBC・DreamWorks・Warner Bros.からの大型IP訴訟が未解決のまま続行中。
+      </div>
+    </section>
+
+    <!-- ================================ -->
+    <!-- 6. カテゴリ別: 動画生成AI -->
+    <!-- ================================ -->
+    <section>
+      <h2 style="font-size:1.1em;">動画生成AI — 主要モデル比較</h2>
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th>モデル</th>
+            <th>強み</th>
+            <th>最大解像度</th>
+            <th>最大尺</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Kling 3.0</strong></td>
+            <td>マルチショット絵コンテ・コスパ最高</td>
+            <td>4K (ネイティブ)</td>
+            <td>2分</td>
+          </tr>
+          <tr>
+            <td><strong>Veo 3.1</strong></td>
+            <td>ネイティブ音声生成・API柔軟</td>
+            <td>4K</td>
+            <td>〜60秒</td>
+          </tr>
+          <tr>
+            <td><strong>Runway Gen-4.5</strong></td>
+            <td>クリエイティブプラットフォームとして完成</td>
+            <td>1080p</td>
+            <td>〜40秒</td>
+          </tr>
+          <tr>
+            <td><strong>Sora 2</strong></td>
+            <td>映画品質・映像表現力トップ</td>
+            <td>1080p</td>
+            <td>〜25秒</td>
+          </tr>
+          <tr>
+            <td><strong>Wan 2.2</strong></td>
+            <td>OSSで自社サーバ運用可</td>
+            <td>720p</td>
+            <td>—</td>
+          </tr>
+        </tbody>
+      </table>
+      <p style="font-size:0.6em; color:#94a3b8; margin-top:0.5em;">
+        ※ Soraは旧無料版が終了。現在は有料プラン「Sora 2」として継続提供。
+      </p>
+    </section>
+
+    <!-- ================================ -->
+    <!-- 7. カテゴリ別: 制作ツール・エージェント -->
+    <!-- ================================ -->
+    <section>
+      <h2 style="font-size:1.1em;">制作ツール ＆ ワークフロー自動化</h2>
+
+      <div class="card">
+        <div class="label">Adobe Firefly × Runway Gen-4.5</div>
+        <h4>Premiere Pro への動画AI直接統合</h4>
+        2025年12月に提携。Premiere Proから離れずに動画生成・延長が可能に。4/22まで無制限生成キャンペーン実施中。
+      </div>
+
+      <div class="card">
+        <div class="label">Meta Muse Spark / Meta</div>
+        <h4>Meta初の大型言語モデル、Alexandr Wang主導でデビュー</h4>
+        2026年のAI設備投資 $1,150〜1,350億規模。クリエイティブ向けマルチモーダル機能を展開中。
+      </div>
+
+      <div class="card">
+        <div class="label">AI ワークフロー自動化 (Zapier / Make / n8n)</div>
+        <h4>制作会社のオペレーション変革が加速</h4>
+        広告代理店がAIエージェントで入稿・入札・ターゲティングを自動化し、キャンペーン立ち上げ時間を65%削減した事例が続出。
+      </div>
+    </section>
+
+    <!-- ================================ -->
+    <!-- 8. 制作会社アクションポイント -->
+    <!-- ================================ -->
+    <section>
+      <h2 style="font-size:1.1em;">制作会社 — 今週のアクションポイント</h2>
+
+      <div class="action-item">
+        <div class="action-icon">1</div>
+        <div>
+          <strong style="color:var(--accent-light);">Adobe Firefly の無制限キャンペーンを活用（〜4/22）</strong><br>
+          <span style="font-size:0.85em; color:#94a3b8;">Runway Gen-4.5 との連携でPremiere Proへの動画AI統合テストを今すぐ実施</span>
+        </div>
+      </div>
+
+      <div class="action-item">
+        <div class="action-icon">2</div>
+        <div>
+          <strong style="color:var(--accent-light);">Kling 3.0 でマルチショット絵コンテ機能を検証</strong><br>
+          <span style="font-size:0.85em; color:#94a3b8;">1バッチで複数カット生成が可能。PV・商品動画ロールアウトの大幅短縮を試算する</span>
+        </div>
+      </div>
+
+      <div class="action-item">
+        <div class="action-icon">3</div>
+        <div>
+          <strong style="color:var(--accent-light);">GPT Image 1.5 を社内ビジュアル制作フローへ試験導入</strong><br>
+          <span style="font-size:0.85em; color:#94a3b8;">4倍速の恩恵を活かしラフ → レビュー → 納品サイクルの短縮効果を計測</span>
+        </div>
+      </div>
+
+      <div class="action-item">
+        <div class="action-icon">4</div>
+        <div>
+          <strong style="color:var(--accent-light);">Midjourney の法的リスクをクライアントと共有</strong><br>
+          <span style="font-size:0.85em; color:#94a3b8;">主要スタジオからの訴訟継続中。商用案件ではFirefly（著作権クリア）など代替ツールへの切り替えを検討</span>
+        </div>
+      </div>
+
+      <div class="action-item">
+        <div class="action-icon">5</div>
+        <div>
+          <strong style="color:var(--accent-light);">Veo 3.1 のネイティブ音声生成を動画制作パイプラインで評価</strong><br>
+          <span style="font-size:0.85em; color:#94a3b8;">SE・BGM同時生成が可能。ポスプロコスト削減の可能性を試算</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================ -->
+    <!-- 9. まとめ -->
+    <!-- ================================ -->
+    <section class="center-slide">
+      <h2 style="font-size:1.2em; text-align:center; margin-bottom:0.6em;">今週のまとめ</h2>
+      <div class="summary-grid">
+        <div class="summary-item">
+          <strong>画像生成</strong>
+          GPT Image 1.5 が DALL-E 3 を置き換え、4倍速で全ユーザーへ展開。FLUX.1.1 Pro が品質首位。
+        </div>
+        <div class="summary-item">
+          <strong>動画生成</strong>
+          Sora（旧版）終了。Kling 3.0 がネイティブ4K・2分・マルチショットで最高コスパを提供。
+        </div>
+        <div class="summary-item">
+          <strong>制作ツール</strong>
+          Adobe Firefly がマルチモデル化。Runway / FLUX / Gemini を一元管理できる環境が整備。
+        </div>
+        <div class="summary-item">
+          <strong>ワークフロー</strong>
+          AIエージェントが制作・広告オペレーションに本格導入。立ち上げ時間65%削減事例が続出。
+        </div>
+        <div class="summary-item">
+          <strong>リスク</strong>
+          Midjourney は主要スタジオから著作権訴訟を受けており、商用利用には注意が必要。
+        </div>
+        <div class="summary-item">
+          <strong>今後の注目</strong>
+          Meta Muse Spark のクリエイティブ向け機能展開と、Veo 3.1 の音声統合ワークフローに注目。
+        </div>
+      </div>
+      <p style="font-size:0.6em; color:#64748b; margin-top:1em; text-align:center;">
+        生成AI最新情報レポート | 2026-04-15 | 制作会社向け
+      </p>
+    </section>
+
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+<script>
+  Reveal.initialize({
+    hash: true,
+    transition: 'slide',
+    transitionSpeed: 'fast',
+    controls: true,
+    progress: true,
+    slideNumber: true,
+    plugins: []
+  });
+</script>
+</body>
+</html>
